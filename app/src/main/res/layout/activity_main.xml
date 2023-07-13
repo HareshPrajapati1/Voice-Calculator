@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#f8f8f8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtScreen"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/blue_background"
+        android:gravity="center_vertical"
+        android:maxLines="12"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:padding="15dp">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSeven"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:text="7"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="8"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnNine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="9"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDivide"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback_arithmetic"
+                android:text="/"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:padding="15dp">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnFour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="4"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnFive"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="5"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSix"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="6"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnMultiply"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+
+                android:background="@drawable/btnback_arithmetic"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:textColor="@color/black"
+                android:text="*" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:padding="15dp">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnOne"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="1"
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnTwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="2"
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnThree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="3"
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSubtract"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+
+                android:background="@drawable/btnback_arithmetic"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:textColor="@color/black"
+                android:text="-"
+              />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:padding="15dp">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDot"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="."
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnZero"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="0"
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnClear"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btnback"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="C"
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAdd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+
+                android:background="@drawable/btnback_arithmetic"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:textColor="@color/black"
+                android:text="+"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/btnSpeak"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btn_mic_equal"
+                android:src="@drawable/mic"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEqual"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@drawable/btn_mic_equal"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:textColor="@color/black"
+                android:text="="
+               />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
